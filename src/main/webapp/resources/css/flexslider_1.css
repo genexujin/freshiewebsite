@@ -1,0 +1,171 @@
+.flexslider {
+	margin: 0px; 
+	background-color:white; 
+	border: 0px; 
+	position: relative; 
+	-webkit-border-radius: 0px; 
+	-moz-border-radius: 0px;  
+	-o-border-radius: 0px; 
+	border-radius: 0px; 
+	box-shadow: none; 
+	-webkit-box-shadow: none; 
+	-moz-box-shadow: none; 
+	-o-box-shadow: none; 
+	zoom: 1;
+}
+
+.flexslider .slides > li {
+    display: none;
+	position:relative;
+}
+
+.flex-direction-nav{position:absolute;bottom:70px;right:10px;width:126px;}
+
+.flex-direction-nav a {
+	width: 30px; 
+	height: 57px; 
+	margin: 0; 
+	display: block; 
+	background: url(../images/bg_direction_nav.png) no-repeat 0 0; 
+	position: absolute; 
+	top: 50%; 
+	cursor: pointer; 
+	text-indent: -9999px; 
+	opacity: 0; 
+	-webkit-transition: all .3s ease;
+}
+
+.flex-direction-nav .flex-next {background-position: 100% 0; right: -36px; background-color:rgba(0,0,0,.7);width:57px;}
+.flex-direction-nav .flex-prev {left: -36px;background-color:rgba(0,0,0,.7);width:57px;}
+.flexslider:hover > .flex-next {opacity: 0.8; right: 5px;}
+.flexslider:hover > .flex-prev {opacity: 0.8; left: 5px;}
+.flex-next {opacity: 0;}
+.flex-prev {opacity: 0;}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1;}
+.flex-direction-nav .flex-disabled {display:none;}
+
+.flex-caption-1{
+	padding:18px;
+	position:absolute; 
+	bottom:14px;
+	left:14px;
+	background-color:rgba(0,0,0,.7);
+	font-family: 'Open Sans', sans-serif;
+	font-style:italic;
+	color:white;
+	-moz-text-shadow:0px 2px 2px black;
+	-ms-text-shadow:0px 2px 2px black;
+	-o-text-shadow:0px 2px 2px black;
+	-webkit-text-shadow:0px 1px 2px black;
+	text-shadow:0px 1px 2px black;
+	max-width:30%;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.flex-caption-2{
+	padding:18px;
+	position:absolute; 
+	top:14px;
+	right:14px;
+	background-color:rgba(0,0,0,.7);
+	font-family: 'Open Sans', sans-serif;
+	font-style:italic;
+	color:white;
+	-moz-text-shadow:0px 2px 2px black;
+	-ms-text-shadow:0px 2px 2px black;
+	-o-text-shadow:0px 2px 2px black;
+	-webkit-text-shadow:0px 1px 2px black;
+	text-shadow:0px 1px 2px black;
+	max-width:30%;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.flex-caption-3{
+	padding:18px;
+	position:absolute; 
+	top:0;
+	left:0;
+	background-color:rgba(0,0,0,.7);
+	font-family: 'Open Sans', sans-serif;
+	font-style:italic;
+	color:white;
+	-moz-text-shadow:0px 2px 2px black;
+	-ms-text-shadow:0px 2px 2px black;
+	-o-text-shadow:0px 2px 2px black;
+	-webkit-text-shadow:0px 1px 2px black;
+	text-shadow:0px 1px 2px black;
+}
+
+.flex-caption-4{
+	padding:18px;
+	position:absolute; 
+	top:0;
+	right:0;
+	background-color:rgba(0,0,0,.7);
+	font-family: 'Open Sans', sans-serif;
+	font-style:italic;
+	color:white;
+	-moz-text-shadow:0px 2px 2px black;
+	-ms-text-shadow:0px 2px 2px black;
+	-o-text-shadow:0px 2px 2px black;
+	-webkit-text-shadow:0px 1px 2px black;
+	text-shadow:0px 1px 2px black;
+}
+
+.flex-caption-5{
+	padding:18px;
+	position:absolute; 
+	top:50%;
+	right:14px;
+	background-color:rgba(0,0,0,.7);
+	font-family: 'Open Sans', sans-serif;
+	font-style:italic;
+	color:white;
+	-moz-text-shadow:0px 2px 2px black;
+	-ms-text-shadow:0px 2px 2px black;
+	-o-text-shadow:0px 2px 2px black;
+	-webkit-text-shadow:0px 1px 2px black;
+	text-shadow:0px 1px 2px black;
+	max-width:36%;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin-top:-105px;
+}
+
+.flex-caption-1 h3, .flex-caption-2 h3, .flex-caption-3 h3, .flex-caption-4 h3, .flex-caption-5 h3{color:white !important;margin:0px;padding:0px;}
+.flex-caption-1 p, .flex-caption-2 p, .flex-caption-3 p, .flex-caption-4 p, .flex-caption-5 p{padding:10px 0px 0px 0px;color:white !important;font-weight:400;}
+
+.flex-caption-1 a, .flex-caption-1 a:visited, .flex-caption-2 a, .flex-caption-2 a:visited, .flex-caption-3 a, .flex-caption-3 a:visited, .flex-caption-4 a, .flex-caption-4 a:visited, .flex-caption-5 a, .flex-caption-5 a:visited{
+	padding: 7px;
+	background-color:#ff7200;
+	color:white;
+	text-decoration:none;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	margin-top:10px;
+	-moz-text-shadow:none;
+	-ms-text-shadow:none;
+	-o-text-shadow:none;
+	-webkit-text-shadow:none;
+	text-shadow:none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.flex-caption-1 a:hover, .flex-caption-2 a:hover, .flex-caption-3 a:hover, .flex-caption-4 a:hover, .flex-caption-5 a:hover{background-color:white !important;color:#3a3a3a !important;}
